@@ -42,7 +42,7 @@ function App() {
   }, [todos])
 
   return (
-    <div className="App">
+    <div className="App-header">
       <Typography
         style={{ padding: 16 }}
         variant='h3'

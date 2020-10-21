@@ -28,10 +28,17 @@ const TodoForm = ({ addTodo }) => {
                 value={todo.task}
                 onChange={handleTaskInputChange}
                 label='Task'
+                variant='filled'
+                color='primary'
             />
             <Button
                 type='submit'
                 color='primary'
+                variant='contained'
+                size='large'
+                style={{
+                  fontSize: 21
+                }}
                 onSubmit={handleSubmit}>Submit</Button>
         </form>
     )

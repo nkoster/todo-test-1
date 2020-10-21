@@ -28,9 +28,10 @@ const Todo = ({ todo, toggleComplete, removeTodo }) => {
             >
                 {todo.task}
             </Typography>
-            <IconButton onClick={handleRemoveClick}>
-                <Close />
-            </IconButton>
+            <IconButton
+                color='secondary'
+                onClick={handleRemoveClick}
+            ><Close /></IconButton>
         </ListItem>
     )
 }
